@@ -239,6 +239,7 @@ nav.toc a {
 nav.toc a:hover { color: var(--teal-ink); background: var(--teal-wash); }
 
 main { min-width: 0; }
+main section[id] { scroll-margin-top: 5rem; }
 section {
   background: #fff;
   border: 1px solid var(--line);
